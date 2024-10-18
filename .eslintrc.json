@@ -1,10 +1,10 @@
 {
   "rules": {
-    "@typescript-eslint/no-unused-vars": "off",
-    "prefer-const": "off",
-    "@typescript-eslint/no-empty-object-type": "off",
-    "@next/next/no-img-element": "off",
-    "@typescript-eslint/no-explicit-any": "off"  // Disable the no-explicit-any rule globally
+    "@typescript-eslint/no-unused-vars": "off",        // Disables unused variable checks
+    "@typescript-eslint/no-explicit-any": "off",       // Disables the need for explicit types
+    "prefer-const": "off",                             // Disables the prefer-const rule
+    "@typescript-eslint/no-empty-object-type": "off",  // Disables the empty object type rule
+    "@next/next/no-img-element": "off"                 // Disables warnings about using <img> instead of <Image />
   },
   "extends": ["next/core-web-vitals", "next/typescript"]
 }
