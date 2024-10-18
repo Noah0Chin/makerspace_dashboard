@@ -2,7 +2,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 // Function to get organization printers using session
-export async function getOrganizationPrinters(session: string) {
+async function getOrganizationPrinters(session: string) {
   const printerUrl =
     "https://cloud.3dprinteros.com/apiglobal/get_organization_printers_list";
 
